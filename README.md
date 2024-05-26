@@ -5,6 +5,29 @@
 
 # Part 2: Transformer (Text generation):
 
+# Dataset
+The dataset used for this project is a collection of song lyrics. You can find the dataset at [https://www.kaggle.com/datasets/deepshah16/song-lyrics-dataset].
+
+# Objective
+The objective of this project is to train a GPT-2 model on song lyrics data and use the trained model to generate new song lyrics.
+
+# Steps
+- Initialization: Initialize the GPT-2 tokenizer and model, set up logging and warnings, and determine the computation device (CPU or GPU).
+
+- Dataset: Define a custom dataset class (LyricsDataset) to load song lyrics from a CSV file (song_lyrics.csv) and preprocess them for training.
+
+- Training Parameters: Define parameters such as batch size, number of epochs, learning rate, warmup steps, and maximum sequence length.
+
+- Optimizer and Scheduler: Set up the AdamW optimizer and a linear scheduler for controlling the learning rate during training.
+
+- Training Loop: Iterate over the dataset for a specified number of epochs, encode lyrics into tensors, and train the model using a forward-backward pass. Handle sequence length limitations and save the model's state after each epoch.
+
+- Model Loading: After training, load a specific model checkpoint (gpt2_medium_lyrics_{MODEL_EPOCH}.pt) for generating new lyrics.
+
+- Lyrics Generation: Using the loaded model, generate new song lyrics based on a starting token ("SONG:") and save the generated lyrics to a file (generated_{MODEL_EPOCH}.lyrics).
+
+# Conclusion
+This project demonstrates how to train a GPT-2 model on song lyrics data and use it to generate new song lyrics. By adjusting the dataset and training parameters, you can adapt the model to different text generation tasks.
 
 # Part 3: BERT:
 
