@@ -31,9 +31,11 @@ This project demonstrates how to train a GPT-2 model on song lyrics data and use
 
 # Part 3: BERT:
 
-## Dataset: The dataset used for this task is from the Amazon Customer Reviews (https://nijianmo.github.io/amazon/index.html), specifically focusing on the "Fashion" category.
+## Dataset: 
+The dataset used for this task is from the Amazon Customer Reviews (https://nijianmo.github.io/amazon/index.html), specifically focusing on the "Fashion" category.
 
-## Objective: The objective is to utilize the pre-trained BERT model (bert-base-uncased) to predict the overall ratings of Amazon fashion reviews.
+## Objective: 
+The objective is to utilize the pre-trained BERT model (bert-base-uncased) to predict the overall ratings of Amazon fashion reviews.
 
 ## Steps:
 
