@@ -1,13 +1,20 @@
 # Atelier4_DeepLearning
 
-# Part 3: BERT
+# Part 1: Classification Regression:
+
+
+# Part 2: Transformer (Text generation):
+
+
+# Part 3: BERT:
+
 ## Dataset: The dataset used for this task is from the Amazon Customer Reviews (https://nijianmo.github.io/amazon/index.html), specifically focusing on the "Fashion" category.
 
 ## Objective: The objective is to utilize the pre-trained BERT model (bert-base-uncased) to predict the overall ratings of Amazon fashion reviews.
 
 ## Steps:
 
-- Load Data from JSON File:
+- Load Data from JSON File: 
   The data is loaded from a compressed JSON file and converted into a Pandas DataFrame. We filter out entries where the review text is not a string.
 
 - Data Preparation:
