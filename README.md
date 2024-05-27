@@ -2,6 +2,33 @@
 
 # Part 1: Classification Regression:
 
+# Dataset
+The dataset used in this project consists of articles scraped from Arabic news websites, including Al Jazeera Tech and Al Jazeera Culture
+
+# Objective
+The objective of this project is to perform Arabic text data analysis, including text preprocessing, scoring based on AI-related keywords, and training various models for classification and regression tasks.
+
+# Steps
+- Scraping and Scoring Text
+Scrape articles from specified URLs and assign a relevance score based on AI-related keywords.
+Store the scraped data in a CSV file for further processing.
+
+- Text Preprocessing
+Normalize Arabic text by removing diacritics and normalizing characters.
+Remove punctuations, repeating characters, and stopwords.
+Lemmatize the text using the Stanza library.
+
+- Model Training
+Tokenize and pad the preprocessed text data.
+Split the data into training and test sets.
+Build and train models including RNN, Bidirectional RNN, GRU, LSTM, and Bidirectional LSTM for regression tasks.
+Evaluate the trained models using mean squared error (MSE) and mean absolute error (MAE).
+
+- BLEU Score Calculation
+Calculate the BLEU score for generated texts against reference texts.
+
+# Conclusion
+The project demonstrates the process of scraping, preprocessing, and analyzing Arabic text data, as well as training and evaluating machine learning models for regression tasks. The models show varying performance, with the LSTM-based models performing the best on the given dataset.
 
 # Part 2: Transformer (Text generation):
 
